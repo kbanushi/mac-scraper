@@ -1,0 +1,43 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    padding: 30px;
+}
+.footer__container{
+    margin-top: 500px;
+    background-color: #555555;
+    color: lightgrey;
+}
+
+.prices__table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    padding: 30px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding:8px;
+}
+
+td:last-child, th:last-child{
+    background-color: #D6EEEE;
+}
